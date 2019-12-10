@@ -1,0 +1,36 @@
+El api esta construida por nodejs express typescript
+
+loaders cagar las rutas la del api
+dentro de api esta el index que carga llama los endpoint que consume el front
+controller se encarga de enviar al dao los parametros
+dao se encarga hacer consultas sql a la base de datos
+
+una vez este el proyecto en la maquina local 
+npm install
+npm run dev   -- entorno desarrollo
+
+
+dentro del frontend 
+el desarrollo lo cree con angular 8
+
+npm install
+ng serve -- entorno desarrollo
+
+
+base de datos mysql workbench
+Product: mariadb.org binary distribution 
+Version: 10.4.10-MariaDB
+
+SELECT @@version;
+'10.4.10-MariaDB'
+
+url api
+
+http://localhost:3000/api/empleados/edit/1
+http://localhost:3000/api/empleados/create/
+http://localhost:3000/api/empleados/delete/1
+http://localhost:3000/api/empleados/list/1
+http://localhost:3000/api/empleados/list/
+
+url front
+http://localhost:4002/
