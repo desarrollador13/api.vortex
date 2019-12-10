@@ -34,3 +34,11 @@ http://localhost:3000/api/empleados/list/
 
 url front
 http://localhost:4002/
+
+
+
+git clone https://github.com/desarrollador13/app-vortex.git
+
+front 2 veces  npm install
+
+git clone https://github.com/desarrollador13/api.vortex.git
