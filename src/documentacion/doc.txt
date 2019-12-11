@@ -26,19 +26,59 @@ SELECT @@version;
 
 url api
 
-http://localhost:3000/api/empleados/edit/1
+@POST
 http://localhost:3000/api/empleados/create/
+
+{
+	"nombres" : "Maria", 
+	"apellidos" : "Zarate", 
+	"tipo_identificacion" : "nit",
+	"n_identificacion" : "109922882", 
+	"telefono" : "255555555", 
+	"correo" : "bbb@gmail.com", 
+	"salario" : "2000000"
+}
+
+@DELETE
 http://localhost:3000/api/empleados/delete/1
+
+@GET
 http://localhost:3000/api/empleados/list/1
+
+@GET
 http://localhost:3000/api/empleados/list/
+
+@PUT
+http://localhost:3000/api/empleados/edit/1
+{
+	"id_empleado": 1,
+	"nombres" : "jonathan", 
+	"apellidos" : "", 
+	"tipo_identificacion" : "nit",
+	"n_identificacion" : "109922882", 
+	"telefono" : "255555555", 
+	"correo" : "bbb@gmail.com", 
+	"salario" : "2000000"
+}
 
 url front
 http://localhost:4002/
 
 
-
+GIT CLONE PROYECTOS 
+----------------------------------------------------------
 git clone https://github.com/desarrollador13/app-vortex.git
 
 front 2 veces  npm install
 
 git clone https://github.com/desarrollador13/api.vortex.git
+
+
+las tecnologias que utilize nodjs express typescript git para versionar codigo base de datos mysql 
+angular 8
+
+los escoji por que javascript es uno de los lenguajes de programacion potences en desarrollo tanto para el frontend
+y para el backend es uno de mis lenguajes favoritos.
+
+
+utilize postman para crear pruebas de las rutas del api.
